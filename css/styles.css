@@ -65,6 +65,7 @@ button {
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--main-title-color);
+	margin-bottom: 8px;
 }
 
 .section-discription {
@@ -77,13 +78,18 @@ button {
 	line-height: 1.11;
 	text-transform: capitalize;
 	color: var(--main-title-color);
+	margin-bottom: 72px;
+	text-align: center;
 }
 
 .footer {
 	background: #2e2f42;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .footer-discription {
 	color: #e7e9fc;
+	width: 264px;
 }
 
 .container {
@@ -112,6 +118,10 @@ button {
 }
 .logo-white {
 	color: #f4f4fd;
+}
+
+.logo-footer {
+	margin-bottom: 16px;
 }
 .menu-link {
 	font-weight: 500;
@@ -148,16 +158,31 @@ button {
 .model-btn {
 	font-weight: 500;
 	display: flex;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 32px;
+	padding-right: 32px;
 	align-items: center;
 	letter-spacing: 0.04em;
 	color: #ffffff;
 	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	display: block;
+	margin: auto;
 }
 
 .model-btn:hover,
 .model-btn:focus {
 	background: #404bbf;
 	color: #ffffff;
+}
+
+.page-header {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #e7e9fc;
+	border-top: 0;
 }
 
 .page-header-container {
@@ -186,11 +211,44 @@ button {
 	align-items: center;
 }
 
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.img-list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
+}
+
+.btn {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 72px;
+}
+
+.heading {
+	width: 264px;
+}
+
 /*====/Top Line====*/
 
 /*===========Hero====*/
 .hero {
 	background: #2e2f42;
+	text-align: center;
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 .hero-title {
@@ -198,6 +256,10 @@ button {
 	font-size: 56px;
 	line-height: 1.07;
 	color: #ffffff;
+	margin-bottom: 48px;
+	width: 496px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 button {
@@ -210,6 +272,7 @@ button {
 	font-weight: 500;
 	font-size: 20px;
 	color: var(--main-title-color);
+	margin-bottom: 8px;
 }
 
 .work-discription {
@@ -219,6 +282,21 @@ button {
 .title-team {
 	background: #f4f4fd;
 }
+
+.card-content {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+}
+
+.img-content {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+	border: 1px solid #e7e9fc;
+}
 /*============/<!--Section 3-->========*/
 
 /*=================Filters===============*/
@@ -226,6 +304,10 @@ button {
 .btn-icon {
 	font-weight: 500;
 	display: flex;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
@@ -234,6 +316,8 @@ button {
 	border-radius: 4px;
 	background: #f4f4fd;
 	color: var(--accent-color);
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
 }
 .btn-icon:hover,
 .btn-icon:focus {
@@ -245,6 +329,7 @@ button {
 	font-weight: 500;
 	font-size: 20px;
 	color: var(--main-title-color);
+	margin-bottom: 8px;
 }
 
 .service-description {
